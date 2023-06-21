@@ -1,115 +1,143 @@
 [[LSODA]]
 arch = "aarch64"
-git-tree-sha1 = "a3cc22409ad50fe99b83a77b22f4bd7cc3e49df9"
-libc = "glibc"
-os = "linux"
-
-    [[LSODA.download]]
-    sha256 = "0b3e528295d303480e5c4c2050a1070dfbadd8391c53dae5fe5540ee113cb3a0"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.aarch64-linux-gnu.tar.gz"
-[[LSODA]]
-arch = "aarch64"
-git-tree-sha1 = "5214d6a5a355fd052ef6808dae9c59f296b85324"
-libc = "musl"
-os = "linux"
-
-    [[LSODA.download]]
-    sha256 = "8f5429b1e62df52051add97055c4408d810a6725d93759d0536c5789c6238b0c"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.aarch64-linux-musl.tar.gz"
-[[LSODA]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "7c76f56b5fc35513f7b798fe482bfa9ef722eb39"
-libc = "glibc"
-os = "linux"
-
-    [[LSODA.download]]
-    sha256 = "771db8f60ab2e942b453499a9d681bf4d40327c769a67d5309669c60bede7b8a"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.armv7l-linux-gnueabihf.tar.gz"
-[[LSODA]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "a2c70cf39a6376f82cbf7038cb1005c5e0d9d504"
-libc = "musl"
-os = "linux"
-
-    [[LSODA.download]]
-    sha256 = "d071dcce9cac6e642c87f599e593c60ec528c3a159133bd58e11aa036eeccf64"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.armv7l-linux-musleabihf.tar.gz"
-[[LSODA]]
-arch = "i686"
-git-tree-sha1 = "a868c6bd5a3ab1b6ff336e77c804e352f1f1c9ef"
-libc = "glibc"
-os = "linux"
-
-    [[LSODA.download]]
-    sha256 = "4b555c4097888098c23135333f90d45043d2dd093e7e8c49680f80399ef96e06"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.i686-linux-gnu.tar.gz"
-[[LSODA]]
-arch = "i686"
-git-tree-sha1 = "3d40036bfe94d5d2c4741bd979f82c6766d4522d"
-libc = "musl"
-os = "linux"
-
-    [[LSODA.download]]
-    sha256 = "08ac84bff9cb990adabdf70d5f4d287e12e6c84e9a532536ef10383665aba079"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.i686-linux-musl.tar.gz"
-[[LSODA]]
-arch = "i686"
-git-tree-sha1 = "a05ccd21a1172e307dd7b99ccb2fc8ecae5cdbfe"
-os = "windows"
-
-    [[LSODA.download]]
-    sha256 = "7246cad1d4b2a1c01fb3e4f640cc7d52ebc9d6df30e58530b43bcd103521a7fb"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.i686-w64-mingw32.tar.gz"
-[[LSODA]]
-arch = "powerpc64le"
-git-tree-sha1 = "ee188d6873499ff461d284cbc35315ab1465c75d"
-libc = "glibc"
-os = "linux"
-
-    [[LSODA.download]]
-    sha256 = "37cb5825dfbb77b0f8dae1b1dfc75bd02a77a000293c1df10a84005d9031059e"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.powerpc64le-linux-gnu.tar.gz"
-[[LSODA]]
-arch = "x86_64"
-git-tree-sha1 = "a1b74656713e1bbcc2bfe3f72fdf1fbceacac4ef"
+git-tree-sha1 = "69ba46a3809fe8dfe43c5f58984f32173549132d"
 os = "macos"
 
     [[LSODA.download]]
-    sha256 = "12bf8e2da2bee568a2e2da8179ac0cd5ef2cd6c70e871ab67191772d3586b7a8"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "782c730c62b863d41db12fde476ae90218d61efe21e31c51474ef0cae5b7e97a"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.aarch64-apple-darwin.tar.gz"
 [[LSODA]]
-arch = "x86_64"
-git-tree-sha1 = "434981b6b52e1f7428100458f7f69fe269008eb0"
+arch = "aarch64"
+git-tree-sha1 = "1133221eeb2a7b741489548b1973ee9ccdb23a1d"
 libc = "glibc"
 os = "linux"
 
     [[LSODA.download]]
-    sha256 = "874a5759735d24b6c21f4775b97f78a22715f9cde8e2296048f18a352e41272e"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "cd2d7658ada2f73e529fe7b5784ed568b28a2993788e9f66f2018eb195be55ec"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.aarch64-linux-gnu.tar.gz"
 [[LSODA]]
-arch = "x86_64"
-git-tree-sha1 = "2dbcb792af941392bde2de50e317bab8bcc3ba06"
+arch = "aarch64"
+git-tree-sha1 = "dc5ec60e2da43457ae65cdad28e5e0895b82c817"
 libc = "musl"
 os = "linux"
 
     [[LSODA.download]]
-    sha256 = "5405afe715b54bb6fbcd443a087520b1c11b3c90b76a86b8afbf626b4f337390"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.x86_64-linux-musl.tar.gz"
+    sha256 = "a517ea33ec0f7976b4d185dc469d83e09318b2733fe0547f8d44c32f07e4d4b1"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.aarch64-linux-musl.tar.gz"
 [[LSODA]]
-arch = "x86_64"
-git-tree-sha1 = "ba395f894f82b24d661962263ecc8abcc1f425bd"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "abf7113c5488a80655069e44c09816fcb3fb2d7f"
+libc = "glibc"
+os = "linux"
 
     [[LSODA.download]]
-    sha256 = "cf5fae570df9ddb6c4b01ad1715d794b3dd307257a1096ed23d6ad1bec4c5026"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "54161fb7a639f9e29401e1ed82f2bcb8fe42163c60e9382560ac7a3dd72b44d9"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.armv6l-linux-gnueabihf.tar.gz"
 [[LSODA]]
-arch = "x86_64"
-git-tree-sha1 = "86cdccd6d3c217b94118ba12b179cc60c512d219"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "77d02dd4455f80cb75fdc5bd7907b4d27012f4cd"
+libc = "musl"
+os = "linux"
+
+    [[LSODA.download]]
+    sha256 = "cb93e0bfa4f91d86159cb3162a4e37c137170bcbd6edca4a5ad0c04d23ab5e47"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.armv6l-linux-musleabihf.tar.gz"
+[[LSODA]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "80d09790333c74b58c102ac44c9250b1784757ad"
+libc = "glibc"
+os = "linux"
+
+    [[LSODA.download]]
+    sha256 = "6f2cb7cc089a6af88a7d069b11fd53e72d64cb5bc8db463d6676f314c9a29d67"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.armv7l-linux-gnueabihf.tar.gz"
+[[LSODA]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5a550c8a3b47fd34296409d7b5148b2fe97eeba1"
+libc = "musl"
+os = "linux"
+
+    [[LSODA.download]]
+    sha256 = "6047048c79592c2ae9004087a90a234f5dba8932c7ff158f3dda4ca5484715ba"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.armv7l-linux-musleabihf.tar.gz"
+[[LSODA]]
+arch = "i686"
+git-tree-sha1 = "37a4d3fb0b66bb3da95ed9accee2f31bcf4c583b"
+libc = "glibc"
+os = "linux"
+
+    [[LSODA.download]]
+    sha256 = "06a17f2d326dafc8044ba7e85dfa51b0bbfc21be2c8dd3ef7b40fc918b7e56a1"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.i686-linux-gnu.tar.gz"
+[[LSODA]]
+arch = "i686"
+git-tree-sha1 = "5bea335c7c7ac69cd26f5414b430384b06c647ec"
+libc = "musl"
+os = "linux"
+
+    [[LSODA.download]]
+    sha256 = "b3d852113040e427f07601364b5f85e186f94c0c34ab42ea724a5ac5aa0b1ebb"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.i686-linux-musl.tar.gz"
+[[LSODA]]
+arch = "i686"
+git-tree-sha1 = "840963f8ef774f02b1252d0d56805004d8cc4ee9"
 os = "windows"
 
     [[LSODA.download]]
-    sha256 = "1f9aac08ae02d8730e1160523e074d823871ccdc83b891a52ab947953c6b64de"
-    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.1+0/LSODA.v0.1.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "97405d7a2f22536533cf653e95ebc9f64c433114a3f176d8376754cf3367b39a"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.i686-w64-mingw32.tar.gz"
+[[LSODA]]
+arch = "powerpc64le"
+git-tree-sha1 = "c302e6ea9cf9dd77e00d3aeff5aed3e57f660675"
+libc = "glibc"
+os = "linux"
+
+    [[LSODA.download]]
+    sha256 = "980955129227b9be76e08ad8fd2f36f27b94399d8d42ddc876ae2c2a6f1c8360"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.powerpc64le-linux-gnu.tar.gz"
+[[LSODA]]
+arch = "x86_64"
+git-tree-sha1 = "cdb031214a8e0b7cd4429351c6044fd99c58b7b4"
+os = "macos"
+
+    [[LSODA.download]]
+    sha256 = "b1401b51e138dfb489e3959bf8ebfb2911548362e72a91be339be00be7bf311d"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.x86_64-apple-darwin.tar.gz"
+[[LSODA]]
+arch = "x86_64"
+git-tree-sha1 = "b1c6d5aef366f4de75e0e5a0b63d783f043b2321"
+libc = "glibc"
+os = "linux"
+
+    [[LSODA.download]]
+    sha256 = "7a85af33992bde40ca40aaa6e8ae29bfffc8ada42dac08f3e3ddd8c5458ba8f1"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.x86_64-linux-gnu.tar.gz"
+[[LSODA]]
+arch = "x86_64"
+git-tree-sha1 = "4dc5a4bf1f64a822530846deec4f770b9d3716ee"
+libc = "musl"
+os = "linux"
+
+    [[LSODA.download]]
+    sha256 = "6b15d595df8633599f16861ce748168f07b7a24565cc32a84fc605cdc12a4468"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.x86_64-linux-musl.tar.gz"
+[[LSODA]]
+arch = "x86_64"
+git-tree-sha1 = "10a6b6d40968438fcb727148fbb2433e9f6da241"
+os = "freebsd"
+
+    [[LSODA.download]]
+    sha256 = "9a3bd524b8eaf6904864e28987eed71467ca00cdc75f9a51c390ceeadf2199db"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.x86_64-unknown-freebsd.tar.gz"
+[[LSODA]]
+arch = "x86_64"
+git-tree-sha1 = "cfc6551fdb12cc130892afc45e10eb02a59fbc12"
+os = "windows"
+
+    [[LSODA.download]]
+    sha256 = "4d2f56ddf60763e0f1b8fc7e57d6e94a6fc0b064c30013313ea2dd89d88b1901"
+    url = "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.2+0/LSODA.v0.1.2.x86_64-w64-mingw32.tar.gz"
